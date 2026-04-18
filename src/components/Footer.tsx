@@ -5,7 +5,11 @@ export function Footer() {
         <div className="grid md:grid-cols-12 gap-12">
           {/* Logo & Tagline */}
           <div className="md:col-span-4">
-            <p className="font-serif text-2xl tracking-wide text-foreground mb-4">Сарафан</p>
+            <img
+              src="https://cdn.poehali.dev/projects/b0298d23-6385-473d-a9ec-9307f931124d/bucket/ed90e6fb-177b-42fc-8bee-a2804b7f384d.jpg"
+              alt="Мой Сарафан"
+              className="h-14 w-auto mb-4"
+            />
             <p className="text-sm text-muted-foreground leading-relaxed">
               Платформа доверенных рекомендаций для специалистов, клиентов и посредников.
             </p>
@@ -63,7 +67,7 @@ export function Footer() {
         {/* Bottom Bar */}
         <div className="mt-16 pt-8 border-t border-border flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-xs text-muted-foreground">
-            &copy; {new Date().getFullYear()} Сарафан. Все права защищены.
+            &copy; {new Date().getFullYear()} Мой Сарафан. Все права защищены.
           </p>
           <p className="text-xs text-muted-foreground">Рекомендуй с умом</p>
         </div>
