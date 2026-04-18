@@ -8,7 +8,7 @@ export function Hero() {
   }, [])
 
   return (
-    <section className="relative min-h-screen flex items-center justify-center px-6 lg:px-12 pt-8">
+    <section className="relative flex items-center justify-center px-6 lg:px-12 pt-8 pb-16">
       {/* Subtle background texture */}
       <div className="absolute inset-0 bg-gradient-to-b from-background via-sand/30 to-background" />
 
