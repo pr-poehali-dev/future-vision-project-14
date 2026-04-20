@@ -75,7 +75,15 @@ export function Contact() {
               </div>
               <div>
                 <p className="text-xs tracking-widest uppercase text-muted-foreground mb-2">Telegram</p>
-                <p className="text-foreground">@sarafan_app</p>
+                <a href="https://t.me/mysarafan_bot" target="_blank" rel="noopener noreferrer" className="text-foreground hover:text-sage transition-colors">
+                  @mysarafan_bot
+                </a>
+              </div>
+              <div>
+                <p className="text-xs tracking-widest uppercase text-muted-foreground mb-2">Макс</p>
+                <a href="https://max.ru/id540700501700_3_bot" target="_blank" rel="noopener noreferrer" className="text-foreground hover:text-sage transition-colors">
+                  mysarafan_bot
+                </a>
               </div>
             </div>
           </div>
